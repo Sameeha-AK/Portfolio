@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/lap+coffee.jpg");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+.main .section{
+    width: 80%;
+    height: 80%;
+    margin-left: 130px;
+    margin-top: 60px;
+    position: absolute;
+    overflow: hidden;
+}
+.main .secton nav{
+    width: 100%;
+    height: 60px;
+}
+.main .section nav .logo{
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 40px;
+    color: white;
+    position: absolute;
+}
+span{
+    color: rgb(31, 121, 121);
+}
+.main .section nav ul{
+    float: right;
+    margin-right: 70px;
+}
+.main .section nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    position: relative;
+    line-height: 60px;
+}
+.main .section nav ul li a{
+    color: white;
+}
+.main .section nav ul li:hover{
+    background:teal;
+}
+.main .section nav ul .btn{
+    width: 130px;
+    height: 45px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.main .section nav ul .btn:hover{
+    background:teal;
+}
+.main .section .intro{
+    padding-left: 40px;
+    color: white;
+    padding-top: 200px;
+}
+.main .section .intro .heading{
+    padding-top: 60px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.main .section .intro h1{
+    font-weight: bold;
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+.main .section .intro p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.main .section .intro h3{
+    padding-bottom: 10px;
+}
+.main .section .intro .in-btn{
+    width: 150px;
+    height: 50px;
+    background: teal;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+   
+}
